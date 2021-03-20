@@ -159,7 +159,7 @@ void backward_selection(FSelector fs, int size) {             //largely the same
     for(int i = 0; i < size; ++i) {
         v.push_back(i);
     }
-    temp.feat_in = v
+    temp.feat_in = v;
     temp.accuracy = fs.nearest_neighbor(v);
     temp.print();
 
